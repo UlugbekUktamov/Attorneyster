@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attorneyster</title>
+    <meta name="description" content="Attorneyster - Landing Page">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="HTML, CSS, Javascript">
+    <meta name="author" content="Ulugbek">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&amp;family=Outfit:wght@400;700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" media="all" href="css/normalize.min.css">
+    <link rel="stylesheet" media="all" href="css/resets.css">
+    <link rel="stylesheet" media="all" href="css/styles.min.css">
+</head>
+
+<body>
+    <div class="site-loader" id="preloader" style="display: none;">
+        <div class="loader-parent">
+            <span class="loader"></span>
+        </div>
+    </div>
+    <div class="site-hero">
+        <div class="site-hero-parent">
+            <header class="header">
+                <div class="container">
+                    <div class="topnav">
+                        <a class="site-logo" href="#">
+                            <img src="img/logo.svg" alt="Site Logo: Attorneyster">
+                        </a>
+                        <a class="topnav-btn" href="#">Book A Consultation</a>
+                    </div>
+                    <nav class="navbar">
+                        <ul class="navbar-menu">
+                            <li class="menu-item"><a class="menu-link" href="#">Home</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">About Us</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">Pages</a></li>
+                            <li class="menu-item"><a class="menu-link" href="#">Contact Us</a></li>
+                        </ul>
+                        <div class="navbar-contact">
+                            <a class="navbar-ctitem" href="#">
+                                <div class="ctitem-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <path
+                                            d="m20.487 17.14-4.065-3.696a1.001 1.001 0 0 0-1.391.043l-2.393 2.461c-.576-.11-1.734-.471-2.926-1.66-1.192-1.193-1.553-2.354-1.66-2.926l2.459-2.394a1 1 0 0 0 .043-1.391L6.859 3.513a1 1 0 0 0-1.391-.087l-2.17 1.861a1 1 0 0 0-.29.649c-.015.25-.301 6.172 4.291 10.766C11.305 20.707 16.323 21 17.705 21c.202 0 .326-.006.359-.008a.992.992 0 0 0 .648-.291l1.86-2.171a.997.997 0 0 0-.085-1.39z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="ctitem-text">
+                                    <span class="ctitem-text-first">Call Us On:</span>
+                                    <span class="ctitem-text-second">+99893-431-07-53</span>
+                                </div>
+                            </a>
+                            <a class="navbar-ctitem" href="#">
+                                <div class="ctitem-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="currentColor">
+                                        <path
+                                            d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.7-8 5.334L4 8.7V6.297l8 5.333 8-5.333V8.7z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="ctitem-text">
+                                    <span class="ctitem-text-first">Email Us On:</span>
+                                    <span class="ctitem-text-second">ulugbekuktamov2003@gmail.com</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="navbar-mobile-icon">
+                            <button class="navbar-mobile-icon-btn" onclick="openNav()">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-parent">
+                        <div class="hero-content">
+                            <img src="img/square.svg" alt="Square Vector Icon">
+                            <h1 class="hero-content-heading">We're Group Of Certified Law Professionals</h1>
+                            <p class="hero-content-text">we have helped countless maritime workers and their families go
+                                up against
+                                the largest offshore
+                                companies and win.</p>
+                            <a class="hero-content-btn" href="#">Get In Touch</a>
+                        </div>
+                        <div class="hero-image">
+                            <img src="img/person.png" alt="Hero Image: Person image"
+                                srcset="img/person.png 1x, img/person@2x.png 2x">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <main>
+        <section class="site-about">
+            <div class="container">
+                <div class="about">
+                    <div class="about-image">
+                        <img src="img/about-img1.png" alt="About Image 1"
+                            srcset="img/about-img1.png 1x, img/about-img1@2x.png 2x">
+                        <img src="img/about-img2.png" alt="About Image 2"
+                            srcset="img/about-img2.png 1x, img/about-img2@2x.png 2x">
+                    </div>
+                    <div class="about-content">
+                        <h2>Welcome to Attorney Law - <br> Lawyer &amp; Law Firm Company</h2>
+                        <img class="sq-img" src="img/square.svg" alt="Square Vector Icon">
+                        <p class="about-content-p">Although we are located in Brooklyn, our maritime lawyers are proud
+                            to help the
+                            injured throughout the
+                            nation, including workers who were working in foreign waters at the time of the incident go
+                            up against the
+                            largest offshore companies and win.</p>
+                        <div class="about-content-person">
+                            <img src="img/person.svg" alt="Person Image">
+                            <span>Peter Parker</span>
+                        </div>
+                        <div class="about-content-box">
+                            <div class="about-child">
+                                <img src="img/doc.svg" alt="Document Icon">
+                                <p>95% <br> Case Success</p>
+                            </div>
+                            <div class="about-child about-child-colored">
+                                <img src="img/35plus.svg" alt="35 Plus Icon">
+                                <p>Years <br> Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-services">
+            <div class="container">
+                <div class="services">
+                    <div class="services-top">
+                        <div class="services-top-title">
+                            <h2>Explore The perfect <br> Our Practice Areas</h2>
+                            <img src="img/square.svg" alt="Square Icon">
+                        </div>
+                        <p>We are a group of civil litigation/trial attorneys who focus on providing a justice based on
+                            the issues
+                            relating to insurance defense, insurance coverage, bad faith, insurance fraud and criminal
+                            litigation.</p>
+                    </div>
+                    <div class="services-bottom">
+                        <div class="services-child">
+                            <h3>Business Law</h3>
+                            <p>Be aware of new developments, as laws and rules often change based on the situation.</p>
+                            <div class="services-child-line"></div>
+                            <div class="services-child-bottom">
+                                <img src="img/icon1.svg" alt="Icon 1">
+                                <a class="services-child-btn" href="#">View More</a>
+                            </div>
+                        </div>
+                        <div class="services-child">
+                            <h3>Construction Law</h3>
+                            <p>Never judge, just listen and advise. Even if your client has made a bad decision in the
+                                case.</p>
+                            <div class="services-child-line"></div>
+                            <div class="services-child-bottom">
+                                <img src="img/icon2.svg" alt="Icon 2">
+                                <a class="services-child-btn" href="#">View More</a>
+                            </div>
+                        </div>
+                        <div class="services-child">
+                            <h3>Car Accident</h3>
+                            <p>Being untruthful will get you nowhere and give you a reputation of the dishonesty in law.
+                            </p>
+                            <div class="services-child-line"></div>
+                            <div class="services-child-bottom">
+                                <img src="img/icon3.svg" alt="Icon 3">
+                                <a class="services-child-btn" href="#">View More</a>
+                            </div>
+                        </div>
+                        <div class="services-child">
+                            <h3>Wrongful Death</h3>
+                            <p>Keep yourself up-to-date on your area of law. Be aware of new justice, as laws and rules.
+                            </p>
+                            <div class="services-child-line"></div>
+                            <div class="services-child-bottom">
+                                <img src="img/icon4.svg" alt="Icon 4">
+                                <a class="services-child-btn" href="#">View More</a>
+                            </div>
+                        </div>
+                        <div class="services-child">
+                            <h3>Criminal Law</h3>
+                            <p>Our attorneys are fully committed to providing you with the support and attention that
+                                you deserve.</p>
+                            <div class="services-child-line"></div>
+                            <div class="services-child-bottom">
+                                <img src="img/icon5.svg" alt="Icon 5">
+                                <a class="services-child-btn" href="#">View More</a>
+                            </div>
+                        </div>
+                        <div class="services-child">
+                            <h3>Family Law</h3>
+                            <p>You may find yourself unable to work or complete work-related responsibilities safely.
+                            </p>
+                            <div class="services-child-line"></div>
+                            <div class="services-child-bottom">
+                                <img src="img/icon6.svg" alt="Icon 6">
+                                <a class="services-child-btn" href="#">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-deserve">
+            <div class="container">
+                <div class="deserve">
+                    <div class="deserve-title">
+                        <h2>Fighting to get what <br> you deserve</h2>
+                        <img src="img/vector.svg" alt="Vector">
+                        <p>Our board-certified family law attorneys work to achieve a fair and timely resolution of the
+                            legal
+                            issues in your case.</p>
+                    </div>
+                    <div class="deserve-box">
+                        <div class="deserve-child">
+                            <div class="deserve-child-left">
+                                <img src="img/heart.svg" alt="Heart Icon">
+                                <span>7230</span>
+                            </div>
+                            <div class="deserve-child-right">
+                                <h4>Trusted Clients</h4>
+                                <p>Number of clients we've</p>
+                            </div>
+                        </div>
+                        <div class="deserve-child">
+                            <div class="deserve-child-left">
+                                <img src="img/star.svg" alt="Star Icon">
+                                <span>98%</span>
+                            </div>
+                            <div class="deserve-child-right">
+                                <h4>Successful Cases</h4>
+                                <p>Largest winning value</p>
+                            </div>
+                        </div>
+                        <div class="deserve-item">
+                            <h4>15,890+</h4>
+                            <p>Criminal Defense Case Served</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-partners">
+            <div class="container">
+                <div class="partners">
+                    <div class="partners-title">
+                        <img src="img/vector2.svg" alt="Vector">
+                        <h2>Meet the Partners</h2>
+                        <img src="img/vector2.svg" alt="Vector">
+                    </div>
+                    <div class="partners-box">
+                        <img src="img/brand1.svg" alt="Brand Logo">
+                        <img src="img/brand2.svg" alt="Brand Logo">
+                        <img src="img/brand3.svg" alt="Brand Logo">
+                        <img src="img/brand4.svg" alt="Brand Logo">
+                        <img src="img/brand5.svg" alt="Brand Logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-cases">
+            <div class="container">
+                <div class="cases">
+                    <div class="cases-left">
+                        <h2>We Are Top Lawyers And History</h2>
+                        <img src="img/square.svg" alt="Square">
+                        <div class="cases-left-child">
+                            <span>2000 – Establishment of the Company!</span>
+                            <p>The origins of lawyers and the first founders of law make their appearance in Ancient
+                                Greece and Rome.
+                            </p>
+                        </div>
+                        <div class="cases-left-child">
+                            <span>2006 – Together we Build</span>
+                            <p>Lawyers in medieval times found themselves struggling to make a living as the legal
+                                profession
+                                collapsed in the western world.
+                            </p>
+                        </div>
+                        <div class="cases-left-child">
+                            <span>2008 – Completed 10000 cases</span>
+                            <p>When did lawyers first start practicing in the United States? It's important to
+                                understand that the
+                                history of attorneys.
+                            </p>
+                        </div>
+                        <div class="cases-left-child">
+                            <span>2011 – We are Number One</span>
+                            <p>Eventually, the prejudices against lawyers started to fall away and the legal profession
+                                began to gain
+                                respect and power.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cases-center">
+                        <img src="img/cases-img.png" alt="Cases Image"
+                            srcset="img/cases-img.png 1x, img/cases-img@2x.png 2x">
+                    </div>
+                    <div class="cases-right">
+                        <h2>We Are Specialised And Experienced</h2>
+                        <img src="img/square.svg" alt="Square">
+                        <p>Keep yourself up-to-date on your area of law. Be aware of new developments, as laws and rules
+                            often
+                            change based on the situation and new cases are being decided every day.</p>
+                        <div class="cases-right-box">
+                            <div class="case-item">
+                                <span>Divorce And Family Cases</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="case-line">
+                                <div class="case-line-box1"></div>
+                            </div>
+                        </div>
+                        <div class="cases-right-box">
+                            <div class="case-item">
+                                <span>Property And Construction</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="case-line">
+                                <div class="case-line-box2"></div>
+                            </div>
+                        </div>
+                        <div class="cases-right-box">
+                            <div class="case-item">
+                                <span>Banking And Finance</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="case-line">
+                                <div class="case-line-box1"></div>
+                            </div>
+                        </div>
+                        <div class="cases-right-box">
+                            <div class="case-item">
+                                <span>Accident &amp; Wrongful Death</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="case-line">
+                                <div class="case-line-box3"></div>
+                            </div>
+                        </div>
+                        <div class="case-btn-box">
+                            <a class="cases-btn" href="#">Free Consulting</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-reviews">
+            <div class="container">
+                <div class="reviews">
+                    <div class="reviews-title">
+                        <h2>Client Opinions &amp; Reviews</h2>
+                        <img src="img/vector.svg" alt="Vector">
+                    </div>
+                    <div class="reviews-box">
+                        <div class="review-item">
+                            <div class="review-first">
+                                <img src="img/bq.svg" alt="Blockquote">
+                                <p>Could you please thank Paul personally for me, the stars are for his forehead. The
+                                    perfect way of
+                                    handling the case based on the situation.</p>
+                            </div>
+                            <div class="review-profile">
+                                <img src="img/profile1.png" alt="Profile Image">
+                                <div class="rv-text">
+                                    <span>Natasha</span>
+                                    <p>Private Employee</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item second-rv">
+                            <div class="review-profile rv-prof">
+                                <img src="img/profile2.png" alt="Profile Image">
+                                <div class="rv-text">
+                                    <span>Hannah Butler</span>
+                                    <p>Business Sector</p>
+                                </div>
+                            </div>
+                            <div class="review-second">
+                                <img src="img/bq.svg" alt="Blockquote">
+                                <p>Attorney law firm really helped me with all my family law and custody issues at the
+                                    right time. Words
+                                    are not enough to thank the firm.</p>
+                            </div>
+                        </div>
+                        <div class="review-item">
+                            <div class="review-first">
+                                <img src="img/bq.svg" alt="Blockquote">
+                                <p>Thank you for the way in which your team handling the matter on a perfect way. They
+                                    give me a big
+                                    relief in this case with more confident.</p>
+                            </div>
+                            <div class="review-profile">
+                                <img src="img/profile3.png" alt="Profile Image">
+                                <div class="rv-text">
+                                    <span>Phillip Arnold</span>
+                                    <p>Bus Driver</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-item second-rv">
+                            <div class="review-profile rv-prof">
+                                <img src="img/profile4.png" alt="Profile Image">
+                                <div class="rv-text">
+                                    <span>Joshua Warren</span>
+                                    <p>Private Engineer</p>
+                                </div>
+                            </div>
+                            <div class="review-second">
+                                <img src="img/bq.svg" alt="Blockquote">
+                                <p>I frequently check the Best Lawyers list to select an attorney in areas too familiar
+                                    with at the end
+                                    they came and lead to achive the justice.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-team">
+            <div class="container">
+                <div class="team">
+                    <div class="team-title">
+                        <h2>Our Experienced Attorney Are Ready To answer any questions</h2>
+                        <img src="img/vector.svg" alt="Vector">
+                    </div>
+                    <div class="team-box">
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="img/team1.png" alt="Team Member Image"
+                                    srcset="img/team1.png 1x, img/team1@2x.png 2x">
+                            </div>
+                            <div class="team-item-text">
+                                <h4>John Turner</h4>
+                                <span>Civil Attorney</span>
+                            </div>
+                        </div>
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="img/team2.png" alt="Team Member Image"
+                                    srcset="img/team2.png 1x, img/team2@2x.png 2x">
+                            </div>
+                            <div class="team-item-text">
+                                <h4>Martha Black</h4>
+                                <span>Associate Attorney</span>
+                            </div>
+                        </div>
+                        <div class="team-item">
+                            <div class="team-item-img">
+                                <img src="img/team3.png" alt="Team Member Image"
+                                    srcset="img/team3.png 1x, img/team3@2x.png 2x">
+                            </div>
+                            <div class="team-item-text">
+                                <h4>Brian Gomez</h4>
+                                <span>Titular Attorney</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-consult">
+            <div class="container">
+                <div class="consult">
+                    <div class="consult-left">
+                        <h2>Our professional Expert law team is always ready to serve you</h2>
+                        <img src="img/square.svg" alt="Square">
+                        <p>We're always available for new cases big or small. Send us an email and we'll get in touch
+                            shortly, or
+                            phone between 8:00 am and 7:00 pm Monday to Saturday.</p>
+                        <a class="consult-btn" href="#">Contact Us</a>
+                    </div>
+                    <div class="consult-right">
+                        <div class="consult-right-box">
+                            <h3>Get a Free Consultation</h3>
+                            <p>You can get free consultation and case evaluation from us via the following contact
+                                number</p>
+                            <a class="call-us" href="#">
+                                <div class="call-us-phone">
+                                    <img src="img/phone.svg" alt="Phone Icon">
+                                </div>
+                                <div class="call-us-text">
+                                    <span>Call Us On:</span>
+                                    <p>911-987654321</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-contact">
+            <div class="container">
+                <div class="contact">
+                    <form class="contact-form" method="post"><input type="hidden" name="form-name" value="form 1">
+                        <div class="contact-item">
+                            <input type="name" name="name" id="name" required="" placeholder="Full name*">
+                            <input type="email" name="email" id="email" required="" placeholder="Email Address*">
+                        </div>
+                        <div class="contact-item">
+                            <input type="number" name="tel" id="tel" placeholder="Phone Number">
+                            <input type="text" name="subject" id="subject" placeholder="Subject">
+                        </div>
+                        <textarea name="message" id="message" required="" placeholder="Your Message*"></textarea>
+                        <div class="contact-button">
+                            <button type="submit">Get An Appointment</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="site-blogs">
+            <div class="container">
+                <div class="blogs">
+                    <div class="blogs-top">
+                        <div class="blogs-title">
+                            <h2>Recent Blogs</h2>
+                            <img src="img/vector.svg" alt="Vector">
+                        </div>
+                        <div class="blogs-content">
+                            <div class="blogs-content-left">
+                                <img src="img/blog-top.png" alt="Blog Top Image"
+                                    srcset="img/blog-top.png 1x, img/blog-top@2x.png 2x">
+                            </div>
+                            <div class="blogs-content-right">
+                                <div class="right-title">
+                                    <span>Corporate Law</span>
+                                    <span> | </span>
+                                    <span>Friday, February 4, 2022</span>
+                                </div>
+                                <div class="right-line"></div>
+                                <h2>The Difference between Information &amp; Legal Advice</h2>
+                                <p>Collaborative on low-hanging fruit to identify a ballpark value added activity to
+                                    beta matrix
+                                    economically test override the digital.</p>
+                                <a class="right-btn" href="#">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blogs-bottom"></div>
+                </div>
+            </div>
+        </section>
+        <section class="site-posts">
+            <div class="container">
+                <div class="posts">
+                    <div class="posts-line"></div>
+                    <div class="posts-box">
+                        <div class="post">
+                            <img src="img/post1.png" alt="Post Image" srcset="img/post1.png 1x, img/post1@2x.png 2x">
+                            <div class="post-title">
+                                <span>Corporate Law</span>
+                                <span> | </span>
+                                <span>Friday, February 4, 2022</span>
+                            </div>
+                            <div class="post-line"></div>
+                            <h3>How to Tell Who Is at Fault in a Car Accident</h3>
+                            <p>Capitalize on low-hanging fruit to identify a ballpark value added matrix economically
+                                activity to beta
+                                test override the digital.</p>
+                            <a class="post-link" href="#">View More</a>
+                        </div>
+                        <div class="post">
+                            <img src="img/post2.png" alt="Post Image" srcset="img/post2.png 1x, img/post2@2x.png 2x">
+                            <div class="post-title">
+                                <span>Legal Advice</span>
+                                <span> | </span>
+                                <span>Friday, February 4, 2022</span>
+                            </div>
+                            <div class="post-line"></div>
+                            <h3>When Sue Outside of Workers' Compensation</h3>
+                            <p>Strategies on low-hanging fruit to identify a ballpark value added activity matrix
+                                economically to beta
+                                test override the digital.</p>
+                            <a class="post-link" href="#">View More</a>
+                        </div>
+                        <div class="post">
+                            <img src="img/post3.png" alt="Post Image" srcset="img/post3.png 1x, img/post3@2x.png 2x">
+                            <div class="post-title">
+                                <span>Social Justice</span>
+                                <span> | </span>
+                                <span>Friday, February 4, 2022</span>
+                            </div>
+                            <div class="post-line"></div>
+                            <h3>Social Media Postings Lead to Defense Verdict</h3>
+                            <p>Collaborative on low-hanging fruit to identify a ballpark value added activity to beta
+                                matrix
+                                economically test override the digital.</p>
+                            <a class="post-link" href="#">View More</a>
+                        </div>
+                    </div>
+                    <div class="posts-box second-post-box">
+                        <div class="post">
+                            <img src="img/post4.png" alt="Post Image" srcset="img/post4.png 1x, img/post4@2x.png 2x">
+                            <div class="post-title">
+                                <span>Corporate Law</span>
+                                <span> | </span>
+                                <span>Friday, February 4, 2022</span>
+                            </div>
+                            <div class="post-line"></div>
+                            <h3>Riding solo to the rescue of her beloved nonprofits</h3>
+                            <p>Podcasting on low-hanging fruit to identify a ballpark value added activity to beta test
+                                override
+                                matrix economically the digital.</p>
+                            <a class="post-link" href="#">View More</a>
+                        </div>
+                        <div class="post">
+                            <img src="img/post5.png" alt="Post Image" srcset="img/post5.png 1x, img/post5@2x.png 2x">
+                            <div class="post-title">
+                                <span>Legal Advice</span>
+                                <span> | </span>
+                                <span>Friday, February 4, 2022</span>
+                            </div>
+                            <div class="post-line"></div>
+                            <h3>Case Filed on Behalf of Injured Tugboat Worker</h3>
+                            <p>Efficiently on low-hanging fruit to identify a ballpark value added activity to beta test
+                                matrix
+                                economically override the digital.</p>
+                            <a class="post-link" href="#">View More</a>
+                        </div>
+                        <div class="post">
+                            <img src="img/post6.png" alt="Post Image" srcset="img/post6.png 1x, img/post6@2x.png 2x">
+                            <div class="post-title">
+                                <span>Social Justice</span>
+                                <span> | </span>
+                                <span>Friday, February 4, 2022</span>
+                            </div>
+                            <div class="post-line"></div>
+                            <h3>How Companies Choose Legal Representation</h3>
+                            <p>Objectively on low-hanging fruit to identify a ballpark value added activity to beta
+                                matrix
+                                economically test override the digital.</p>
+                            <a class="post-link" href="#">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="site-bottom-image">
+            <img src="img/bottom-img.png" alt="Image" srcset="img/bottom-img.png 1x, img/bottom-img@2x.png 2x">
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer">
+                <div class="footer-top">
+                    <div class="footer-logo">
+                        <img src="img/vc1.svg" alt="Vector">
+                        <img src="img/logo.svg" alt="Logo">
+                        <img src="img/vc2.svg" alt="Vector">
+                    </div>
+                    <div class="footer-box">
+                        <div class="footer-item">
+                            <h2>Quick Link</h2>
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Pricing</a></li>
+                                    <li><a href="#">Testimonial</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Blog Single</a></li>
+                                    <li><a href="#">Cases</a></li>
+                                    <li><a href="#">Cases Single</a></li>
+                                    <li><a href="#">Practice Areas</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-item">
+                            <h2>Utility Pages</h2>
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="#">Style guide</a></li>
+                                    <li><a href="#">Licenses</a></li>
+                                    <li><a href="#">Protected</a></li>
+                                    <li><a href="#">Changelog</a></li>
+                                    <li><a href="#">Error Page</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-item">
+                            <h2>Practice Area</h2>
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="#">Business Law</a></li>
+                                    <li><a href="#">Construction Law</a></li>
+                                    <li><a href="#">Car Accident</a></li>
+                                    <li><a href="#">Criminal Law</a></li>
+                                    <li><a href="#">Family Law</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-item">
+                            <h2>Contact Us</h2>
+                            <div class="footer-contact">
+                                <a href="#">Attorney Law Office, 121 King Street, Las Vegas 90027,USA.</a>
+                                <a href="#">Phone: (011) 9876 54321</a>
+                                <a href="#">Email: info@example.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <span>Copyright © Attorney Law | Developed by <a class="author-link" href="#">Ulugbek
+                            Uktamov</a></span>
+                    <div class="socials">
+                        <span>Follow: </span>
+                        <a href="#">
+                            <img src="img/fb.svg" alt="Facebook Icon">
+                        </a>
+                        <a href="#">
+                            <img src="img/tw.svg" alt="Twitter Icon">
+                        </a>
+                        <a href="#">
+                            <img src="img/in.svg" alt="Instagram Icon">
+                        </a>
+                        <a href="#">
+                            <img src="img/pin.svg" alt="Pinterest Icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div class="overlay-content">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Pages</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
